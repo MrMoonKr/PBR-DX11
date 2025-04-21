@@ -14,6 +14,7 @@
 #include "PreFilterShader.h"
 #include "IntegrateBRDFShader.h"
 #include <d3d11.h>
+#include <cmath>
 
 const int SkyboxSize = 2048;
 const int IrradianceSize = 32;
